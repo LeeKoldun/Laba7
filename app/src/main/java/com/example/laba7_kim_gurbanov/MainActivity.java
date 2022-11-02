@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
         String txt = Btn.getText().toString();
         TextView Text = findViewById(R.id.Txt);
 
-        Text.setText("Была нажаа кнопка " + txt);
+        Text.setText("Была нажата кнопка " + txt);
     }
 }

@@ -21,7 +21,10 @@
 
         <TextView android:id="@+id/Txt"
             android:layout_width="300dp"
-            android:layout_height="100dp"/>
+            android:layout_height="100dp"
+
+            android:gravity="center"
+            android:textSize="32sp"/>
         <androidx.appcompat.widget.AppCompatButton android:id="@+id/BtnOk"
             android:layout_width="300dp"
             android:layout_height="100dp"
